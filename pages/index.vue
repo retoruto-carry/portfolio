@@ -61,8 +61,8 @@
           <b-tabs position="is-centered" class="block">
             <b-tab-item label="webサービス">
               <div class="container">
-                <div class="columns">
-                  <div class="column">
+                <div class="columns is-multiline">
+                  <div class="column is-half">
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
@@ -79,7 +79,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="column">
+                  <div class="column is-half">
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
@@ -99,7 +99,15 @@
                 </div>
               </div>
             </b-tab-item>
-            <b-tab-item label="LT登壇" />
+            <b-tab-item label="LT登壇">
+              <div class="card">
+                <div class="card-content">
+                  <div class="content">
+                    <script async class="speakerdeck-embed" data-id="a74126f6aa624255b96a4c968db5b99d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js" />
+                  </div>
+                </div>
+              </div>
+            </b-tab-item>
             <b-tab-item label="音楽" />
           </b-tabs>
         </b-tab-item>
