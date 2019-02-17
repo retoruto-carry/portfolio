@@ -13,18 +13,34 @@
         とりあえずwebサービスで行きていけるように頑張っています。
       </p>
       <div class="profile-links">
-        <span class="profile-link">
+        <a
+          class="profile-link"
+          href="https://twitter.com/retoruto_carry"
+          target="_blank"
+        >
           <font-awesome-icon :icon="['fab', 'twitter']" />
-        </span>
-        <span class="profile-link">
+        </a>
+        <a
+          class="profile-link"
+          href="https://soundcloud.com/retoruto_carry"
+          target="_blank"
+        >
           <font-awesome-icon :icon="['fab', 'soundcloud']" />
-        </span>
-        <span class="profile-link">
+        </a>
+        <a
+          class="profile-link"
+          href="https://github.com/retoruto-carry"
+          target="_blank"
+        >
           <font-awesome-icon :icon="['fab', 'github']" />
-        </span>
-        <span class="profile-link">
+        </a>
+        <a
+          class="profile-link"
+          href="https://www.amazon.co.jp/registry/wishlist/2MSHR2CU894JT/ref=cm_sw_r_cp_ep_ws_zM5qCbQ9YPH8B"
+          target="_blank"
+        >
           <font-awesome-icon :icon="['fab', 'amazon']" />
-        </span>
+        </a>
       </div>
     </div>
   </div>
@@ -82,5 +98,6 @@ export default {}
 .profile-link {
   font-size: 26px;
   margin: 4px;
+  color: #c9cfd3;
 }
 </style>
