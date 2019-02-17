@@ -77,6 +77,23 @@
                           </p>
                         </div>
                       </div>
+                      <footer class="card-footer">
+                        <p class="card-footer-item">
+                          <a>
+                            くわしく見る
+                          </a>
+                        </p>
+                        <p class="card-footer-item">
+                          <a
+                            href="https://tategakitter.netlify.com/"
+                            target="_blacnk"
+                          >
+                            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+                            &nbsp;
+                            Webサイトへ
+                          </a>
+                        </p>
+                      </footer>
                     </div>
                   </div>
                   <div class="column is-half">
@@ -94,6 +111,23 @@
                           </p>
                         </div>
                       </div>
+                      <footer class="card-footer">
+                        <p class="card-footer-item">
+                          <a>
+                            くわしく見る
+                          </a>
+                        </p>
+                        <p class="card-footer-item">
+                          <a
+                            href="https://count.yaruzo.me/"
+                            target="_blacnk"
+                          >
+                            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+                            &nbsp;
+                            Webサイトへ
+                          </a>
+                        </p>
+                      </footer>
                     </div>
                   </div>
                   <div class="column is-half">
@@ -111,6 +145,23 @@
                           </p>
                         </div>
                       </div>
+                      <footer class="card-footer">
+                        <p class="card-footer-item">
+                          <a>
+                            くわしく見る
+                          </a>
+                        </p>
+                        <p class="card-footer-item">
+                          <a
+                            href="https://retoruto-carry.github.io/RTvsFavMaker/"
+                            target="_blacnk"
+                          >
+                            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+                            &nbsp;
+                            Webサイトへ
+                          </a>
+                        </p>
+                      </footer>
                     </div>
                   </div>
                   <div class="column is-half">
@@ -128,6 +179,23 @@
                           </p>
                         </div>
                       </div>
+                      <footer class="card-footer">
+                        <p class="card-footer-item">
+                          <a>
+                            くわしく見る
+                          </a>
+                        </p>
+                        <p class="card-footer-item">
+                          <a
+                            href="https://btns.fun/"
+                            target="_blacnk"
+                          >
+                            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+                            &nbsp;
+                            Webサイトへ
+                          </a>
+                        </p>
+                      </footer>
                     </div>
                   </div>
                   <div class="column is-half">
@@ -145,6 +213,23 @@
                           </p>
                         </div>
                       </div>
+                      <footer class="card-footer">
+                        <p class="card-footer-item">
+                          <a>
+                            くわしく見る
+                          </a>
+                        </p>
+                        <p class="card-footer-item">
+                          <a
+                            href="https://yaruzo.me/"
+                            target="_blacnk"
+                          >
+                            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+                            &nbsp;
+                            Webサイトへ
+                          </a>
+                        </p>
+                      </footer>
                     </div>
                   </div>
                   <div class="column is-half">
@@ -162,6 +247,23 @@
                           </p>
                         </div>
                       </div>
+                      <footer class="card-footer">
+                        <p class="card-footer-item">
+                          <a>
+                            くわしく見る
+                          </a>
+                        </p>
+                        <p class="card-footer-item">
+                          <a
+                            href="https://tipmusics.com/"
+                            target="_blacnk"
+                          >
+                            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+                            &nbsp;
+                            Webサイトへ
+                          </a>
+                        </p>
+                      </footer>
                     </div>
                   </div>
                   <div class="column is-half">
@@ -179,6 +281,23 @@
                           </p>
                         </div>
                       </div>
+                      <footer class="card-footer">
+                        <p class="card-footer-item">
+                          <a>
+                            くわしく見る
+                          </a>
+                        </p>
+                        <p class="card-footer-item">
+                          <a
+                            href="https://tategakitter.netlify.com/"
+                            target="_blacnk"
+                          >
+                            <font-awesome-icon :icon="['fas', 'external-link-alt']" />
+                            &nbsp;
+                            魚拓へ（動かない）
+                          </a>
+                        </p>
+                      </footer>
                     </div>
                   </div>
                 </div>
