@@ -316,7 +316,7 @@
                   <h1>フレームワーク</h1>
                   <h2>なんとなく</h2>
                   <p>
-                    laravel, vue.js, jquery, bootstap4, nuxt.js
+                    laravel, nuxt.js, vue.js, jquery, bootstap4, bulma
                   </p>
                   <h2>かじっただけ</h2>
                   <p>
@@ -331,6 +331,25 @@
                   <h1>インフラ</h1>
                   <p>
                     ConoHa VPS, Cent OS, heroku, netlify, AWS S3, cloudflare, firebase, Github pages, ラズパイ, arduino, esp8266
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <h1>ツール</h1>
+                  <h2>開発環境</h2>
+                  <p>
+                    mac book pro 2017, Ubuntu 18.04, git, GitHub, figma
+                  </p>
+                  <h2>エディタ</h2>
+                  <p>
+                    mac book pro 2017, Ubuntu 18.04, git, GitHub, figma
+                  </p>
+                  <h2>作曲ソフト</h2>
+                  <p>
+                    FL studio, Renoise
                   </p>
                 </div>
               </div>
