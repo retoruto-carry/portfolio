@@ -36,8 +36,8 @@ export default {}
 
 <style>
 .header-bg {
+  min-height: 28vw;
   width: 100%;
-  min-height: 26vw;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -51,24 +51,30 @@ export default {}
   border: solid 5px #fff;
 }
 @media screen and (max-width: 680px) {
+  .header-bg {
+    min-height: 35vw;
+  }
   .profile-icon {
     width: 140px;
     margin: -70px auto 10px;
   }
 }
 @media screen and (max-width: 500px) {
+  .header-bg {
+    min-height: 40vw;
+  }
   .profile-icon {
     width: 100px;
     margin: -50px auto 10px;
   }
 }
 .profile-name {
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: bold;
-  margin: 10px;
+  margin: 15px;
 }
 .profile-description {
-  margin: 10px;
+  margin: 15px;
 }
 .profile-links {
   margin: 25px;

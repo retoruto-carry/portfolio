@@ -1,46 +1,161 @@
 <template>
   <div>
     <navbar />
+
     <profile-header />
-    <div class="tabs is-centered">
-      <ul>
-        <li class="is-active">
-          <a>
-            <font-awesome-icon :icon="['fa', 'user-alt']" />
-            &nbsp;
-            About
-          </a>
-        </li>
-        <li>
-          <a>
-            <font-awesome-icon :icon="['fa', 'book']" />
-            &nbsp;
-            Work
-          </a>
-        </li>
-        <li>
-          <a>
-            <font-awesome-icon :icon="['fa', 'tools']" />
-            &nbsp;
-            Skill
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="container">
-      <div class="card">
-        <div class="card-image">
-          <figure class="image">
-            <img src="/img/work/kazoetter.png" alt="かぞえったー">
-          </figure>
-        </div>
-        <div class="card-content">
-          <div class="content">
-            ツイッターにカウントを簡単にシェアできるサービス 
+
+    <section>
+      <b-tabs v-model="activeTab" position="is-centered" class="block">
+        <b-tab-item
+          label="About"
+          icon="account"
+        >
+          <div class="container">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <p>
+                    東京周辺に済んでいるとある大学の情報系学科の3年生
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <h1>趣味</h1>
+                  <p>
+                    webサービス開発, おうちハック, Twitter, パソコンで作曲, アニメ鑑賞, バレーボール
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <h1>好きなアニメ</h1>
+                  <p>
+                    webサービス開発, おうちハック, Twitter, パソコンで作曲, アニメ鑑賞, バレーボール
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <h1>好きなキャラクター</h1>
+                  <p>
+                    澤村・スペンサー・英梨々, 一色いろは, 矢野エリカ, 柊かがみ, 鹿賀りん, 友利奈緒
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </b-tab-item>
+
+        <b-tab-item
+          label="Works"
+          icon="library-books"
+        >
+          <b-tabs position="is-centered" class="block">
+            <b-tab-item label="webサービス">
+              <div class="container">
+                <div class="columns">
+                  <div class="column">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img src="/img/work/kazoetter.png" alt="かぞえったー">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="content">
+                          <h1>かぞえったー</h1>
+                          <p>
+                            ツイッターにカウントを簡単にシェアできるサービス 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column">
+                    <div class="card">
+                      <div class="card-image">
+                        <figure class="image">
+                          <img src="/img/work/kazoetter.png" alt="かぞえったー">
+                        </figure>
+                      </div>
+                      <div class="card-content">
+                        <div class="content">
+                          <h1>かぞえったー</h1>
+                          <p>
+                            ツイッターにカウントを簡単にシェアできるサービス 
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </b-tab-item>
+            <b-tab-item label="LT登壇" />
+            <b-tab-item label="音楽" />
+          </b-tabs>
+        </b-tab-item>
+
+        <b-tab-item
+          label="Skills"
+          icon="toolbox"
+        >
+          <div class="container">
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <h1>プログラミング言語</h1>
+                  <h2>まあまあ</h2>
+                  <p>
+                    php, C, html, English
+                  </p>
+                  <h2>なんとなく</h2>
+                  <p>
+                    Linux, Java, javascript, css
+                  </p>
+                  <h2>かじっただけ</h2>
+                  <p>
+                    python, node.js
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <h1>フレームワーク</h1>
+                  <h2>なんとなく</h2>
+                  <p>
+                    laravel, vue.js, jquery, bootstap4, nuxt.js
+                  </p>
+                  <h2>かじっただけ</h2>
+                  <p>
+                    react native, expo, monaca
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-content">
+                <div class="content">
+                  <h1>インフラ</h1>
+                  <p>
+                    ConoHa VPS, Cent OS, heroku, netlify, AWS S3, cloudflare, firebase, Github pages, ラズパイ, arduino, esp8266
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </b-tab-item>
+      </b-tabs>
+    </section>
   </div>
 </template>
 
@@ -57,10 +172,18 @@ export default {
 
 <style>
 .card {
-  margin: 8px;
+  margin: 18px;
   border-radius: 5px;
 }
 .card-image img {
   border-radius: 5px 5px 0 0;
+}
+.content h1 {
+  font-size: 1.5em;
+}
+.content h2 {
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
+  border-bottom: solid 1px #ddd;
 }
 </style>
