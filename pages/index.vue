@@ -1,9 +1,6 @@
 <template>
   <div>
-    <navbar />
-
     <profile-header />
-
     <section>
       <b-tabs position="is-centered" class="block">
         <b-tab-item
@@ -497,11 +494,9 @@
 </template>
 
 <script>
-import Navbar from '@/components/Navbar'
 import ProfileHeader from '@/components/ProfileHeader'
 export default {
   components: {
-    Navbar,
     ProfileHeader
   }
 }
