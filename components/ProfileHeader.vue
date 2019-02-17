@@ -14,16 +14,16 @@
       </p>
       <div class="profile-links">
         <span class="profile-link">
-          <font-awesome-icon :icon="['fab', 'twitter']" style="font-size: 30px" />
+          <font-awesome-icon :icon="['fab', 'twitter']" />
         </span>
         <span class="profile-link">
-          <font-awesome-icon :icon="['fab', 'soundcloud']" style="font-size: 30px" />
+          <font-awesome-icon :icon="['fab', 'soundcloud']" />
         </span>
         <span class="profile-link">
-          <font-awesome-icon :icon="['fab', 'github']" style="font-size: 30px" />
+          <font-awesome-icon :icon="['fab', 'github']" />
         </span>
         <span class="profile-link">
-          <font-awesome-icon :icon="['fab', 'amazon']" style="font-size: 30px" />
+          <font-awesome-icon :icon="['fab', 'amazon']" />
         </span>
       </div>
     </div>
@@ -80,6 +80,7 @@ export default {}
   margin: 25px;
 }
 .profile-link {
+  font-size: 26px;
   margin: 4px;
 }
 </style>
