@@ -5,7 +5,7 @@
     <profile-header />
 
     <section>
-      <b-tabs v-model="activeTab" position="is-centered" class="block">
+      <b-tabs position="is-centered" class="block">
         <b-tab-item
           label="About"
           icon="account"
