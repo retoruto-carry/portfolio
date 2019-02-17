@@ -200,6 +200,7 @@
                             <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
                             &nbsp;
                             第17回 学生エンジニアLT大会	
+                            <br>
                             <font-awesome-icon :icon="['fas', 'calendar-day']" />
                             &nbsp;
                             <time datetime="2018-11-17">2018/11/17</time>
@@ -218,6 +219,7 @@
                             <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
                             &nbsp;
                             s-dev talks 〜サービス開発勉強会〜 #4 「ピボット」
+                            <br>
                             <font-awesome-icon :icon="['fas', 'calendar-day']" />
                             &nbsp;
                             <time datetime="2018-10-17">2018/10/17</time>
@@ -236,6 +238,7 @@
                             <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
                             &nbsp;
                             [MSP x 学生LT] 第14回 学生エンジニアLT大会
+                            <br>
                             <font-awesome-icon :icon="['fas', 'calendar-day']" />
                             &nbsp;
                             <time datetime="2018-08-11">2018/08/11</time>
@@ -254,6 +257,7 @@
                             <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
                             &nbsp;
                             第11回 学生エンジニア限定LT大会
+                            <br>
                             <font-awesome-icon :icon="['fas', 'calendar-day']" />
                             &nbsp;
                             <time datetime="2018-05-15">2018/05/05</time>
@@ -271,6 +275,7 @@
                             <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
                             &nbsp;
                             学生エンジニア限定LT大会 in Hello World 2018
+                            <br>
                             <font-awesome-icon :icon="['fas', 'calendar-day']" />
                             &nbsp;
                             <time datetime="2018-10-17">2018/04/15</time>
