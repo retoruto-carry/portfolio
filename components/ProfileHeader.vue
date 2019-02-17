@@ -1,0 +1,79 @@
+<template>
+  <div>
+    <div class="header-bg" />
+    <figure class="profile-icon image">
+      <img class="is-rounded" src="/img/retoruto_carry.png">
+    </figure>
+    <div class="container has-text-centered">
+      <h1 class="profile-name">
+        れとるときゃりー
+      </h1>
+      <p class="profile-description">
+        個人で色々とWEBサービスつくっている大学生です。<br>
+        とりあえずwebサービスで行きていけるように頑張っています。
+      </p>
+      <div class="profile-links">
+        <span class="profile-link">
+          <font-awesome-icon :icon="['fab', 'twitter']" style="font-size: 30px" />
+        </span>
+        <span class="profile-link">
+          <font-awesome-icon :icon="['fab', 'soundcloud']" style="font-size: 30px" />
+        </span>
+        <span class="profile-link">
+          <font-awesome-icon :icon="['fab', 'github']" style="font-size: 30px" />
+        </span>
+        <span class="profile-link">
+          <font-awesome-icon :icon="['fab', 'amazon']" style="font-size: 30px" />
+        </span>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {}
+</script>
+
+<style>
+.header-bg {
+  width: 100%;
+  min-height: 26vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/img/header.jpeg);
+}
+.profile-icon {
+  width: 180px;
+  text-align: center;
+  margin: -90px auto 10px;
+  border-radius: 50%;
+  border: solid 5px #fff;
+}
+@media screen and (max-width: 680px) {
+  .profile-icon {
+    width: 140px;
+    margin: -70px auto 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .profile-icon {
+    width: 100px;
+    margin: -50px auto 10px;
+  }
+}
+.profile-name {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin: 10px;
+}
+.profile-description {
+  margin: 10px;
+}
+.profile-links {
+  margin: 25px;
+}
+.profile-link {
+  margin: 4px;
+}
+</style>
