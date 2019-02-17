@@ -189,12 +189,20 @@
                 <div class="columns is-multiline">
                   <div class="column is-half">
                     <div class="card">
-                      <script async class="speakerdeck-embed" data-id="a74126f6aa624255b96a4c968db5b99d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js" />
                       <div class="card-content">
                         <div class="content">
-                          <h1>Tipmusic</h1>
+                          <h1>
+                            <a href="https://docs.google.com/presentation/d/1soWD2eVIkx_pXQ-Is59r-nyhaFO48JNEqhvXHasuruo/edit#slide=id.p">
+                              webサービスの作り方
+                            </a>
+                          </h1>
                           <p>
-                            仮想通貨で気軽に投げ銭が出来る音楽投稿サイト
+                            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+                            &nbsp;
+                            第17回 学生エンジニアLT大会	
+                            <font-awesome-icon :icon="['fas', 'calendar-day']" />
+                            &nbsp;
+                            <time datetime="2018-11-17">2018/11/17</time>
                           </p>
                         </div>
                       </div>
@@ -205,9 +213,67 @@
                       <script async class="speakerdeck-embed" data-id="a74126f6aa624255b96a4c968db5b99d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js" />
                       <div class="card-content">
                         <div class="content">
-                          <h1>Tipmusic</h1>
+                          <h1>バズ狙いのツイッター系サービスを作って微妙に成功した話</h1>
                           <p>
-                            仮想通貨で気軽に投げ銭が出来る音楽投稿サイト
+                            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+                            &nbsp;
+                            s-dev talks 〜サービス開発勉強会〜 #4 「ピボット」
+                            <font-awesome-icon :icon="['fas', 'calendar-day']" />
+                            &nbsp;
+                            <time datetime="2018-10-17">2018/10/17</time>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-half">
+                    <div class="card">
+                      <script async class="speakerdeck-embed" data-id="e3e93cb6624c4f3cb3e740c648c15f71" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js" />
+                      <div class="card-content">
+                        <div class="content">
+                          <h1>webサービスを3つ作った間に得たtips</h1>
+                          <p>
+                            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+                            &nbsp;
+                            [MSP x 学生LT] 第14回 学生エンジニアLT大会
+                            <font-awesome-icon :icon="['fas', 'calendar-day']" />
+                            &nbsp;
+                            <time datetime="2018-08-11">2018/08/11</time>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-half">
+                    <div class="card">
+                      <script async class="speakerdeck-embed" data-id="e9ac383865c7473ebcbaa2ee3275e38b" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js" />
+                      <div class="card-content">
+                        <div class="content">
+                          <h1>初めてWebサービスを作って得たTips</h1>
+                          <p>
+                            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+                            &nbsp;
+                            第11回 学生エンジニア限定LT大会
+                            <font-awesome-icon :icon="['fas', 'calendar-day']" />
+                            &nbsp;
+                            <time datetime="2018-05-15">2018/05/05</time>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="column is-half">
+                    <div class="card">
+                      <div class="card-content">
+                        <div class="content">
+                          <h1>帰宅したら好きなアニメキャラに「おかえり」を言ってもらうシステムをラズパイで作った</h1>
+                          <p>
+                            <font-awesome-icon :icon="['fas', 'map-marker-alt']" />
+                            &nbsp;
+                            学生エンジニア限定LT大会 in Hello World 2018
+                            <font-awesome-icon :icon="['fas', 'calendar-day']" />
+                            &nbsp;
+                            <time datetime="2018-10-17">2018/04/15</time>
                           </p>
                         </div>
                       </div>
