@@ -36,7 +36,8 @@ module.exports = {
   */
   modules: [
     // Doc:https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    'nuxt-fontawesome'
+    'nuxt-fontawesome',
+    'nuxt-buefy'
   ],
 
   fontawesome: {
