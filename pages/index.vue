@@ -185,10 +185,31 @@
               </div>
             </b-tab-item>
             <b-tab-item label="LT登壇">
-              <div class="card">
-                <div class="card-content">
-                  <div class="content">
+              <div class="columns is-multiline">
+                <div class="column is-half">
+                  <div class="card">
                     <script async class="speakerdeck-embed" data-id="a74126f6aa624255b96a4c968db5b99d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js" />
+                    <div class="card-content">
+                      <div class="content">
+                        <h1>Tipmusic</h1>
+                        <p>
+                          仮想通貨で気軽に投げ銭が出来る音楽投稿サイト
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="column is-half">
+                  <div class="card">
+                    <script async class="speakerdeck-embed" data-id="a74126f6aa624255b96a4c968db5b99d" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js" />
+                    <div class="card-content">
+                      <div class="content">
+                        <h1>Tipmusic</h1>
+                        <p>
+                          仮想通貨で気軽に投げ銭が出来る音楽投稿サイト
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -282,5 +303,9 @@ export default {
 }
 .b-tabs .works .tab-content {
   padding: 20px 0 0;
+}
+.speakerdeck-embed-wrapper .speakerdeck-iframe {
+  width: 100% !important;
+  height: auto !important;
 }
 </style>
