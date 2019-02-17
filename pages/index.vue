@@ -266,7 +266,7 @@ export default {
 
 <style>
 .card {
-  margin: 18px;
+  margin: 8px;
   border-radius: 5px;
 }
 .card-image img {
@@ -281,6 +281,6 @@ export default {
   border-bottom: solid 1px #ddd;
 }
 .b-tabs .works .tab-content {
-  padding: 0;
+  padding: 20px 0 0;
 }
 </style>
