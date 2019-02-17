@@ -66,7 +66,7 @@
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
-                          <img src="/img/work/tategakitter.png" alt="かぞえったー">
+                          <img src="/img/works/tategakitter.png" alt="かぞえったー">
                         </figure>
                       </div>
                       <div class="card-content">
@@ -100,7 +100,7 @@
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
-                          <img src="/img/work/kazoetter.png" alt="かぞえったー">
+                          <img src="/img/works/kazoetter.png" alt="かぞえったー">
                         </figure>
                       </div>
                       <div class="card-content">
@@ -134,7 +134,7 @@
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
-                          <img src="/img/work/rt_vs_fav_maker.png" alt="「#いいねvsRT」画像メーカー">
+                          <img src="/img/works/rt_vs_fav_maker.png" alt="「#いいねvsRT」画像メーカー">
                         </figure>
                       </div>
                       <div class="card-content">
@@ -168,7 +168,7 @@
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
-                          <img src="/img/work/btnmaker.png" alt="みんなのボタンメーカー">
+                          <img src="/img/works/btnmaker.png" alt="みんなのボタンメーカー">
                         </figure>
                       </div>
                       <div class="card-content">
@@ -202,7 +202,7 @@
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
-                          <img src="/img/work/yaruzosengen.png" alt="やるぞ宣言">
+                          <img src="/img/works/yaruzosengen.png" alt="やるぞ宣言">
                         </figure>
                       </div>
                       <div class="card-content">
@@ -236,7 +236,7 @@
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
-                          <img src="/img/work/tipmusic.png" alt="tipmusic">
+                          <img src="/img/works/tipmusic.png" alt="tipmusic">
                         </figure>
                       </div>
                       <div class="card-content">
@@ -270,7 +270,7 @@
                     <div class="card">
                       <div class="card-image">
                         <figure class="image">
-                          <img src="/img/work/monaalert.png" alt="モナアラート">
+                          <img src="/img/works/monaalert.png" alt="モナアラート">
                         </figure>
                       </div>
                       <div class="card-content">
