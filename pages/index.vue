@@ -15,7 +15,7 @@
               <div class="card-content">
                 <div class="content">
                   <p>
-                    東京周辺に済んでいるとある大学の情報系学科の3年生
+                    とある大学の情報系学科の3年生。
                   </p>
                 </div>
               </div>
@@ -55,6 +55,7 @@
 
         <b-tab-item
           label="Works"
+          class="works"
           icon="library-books"
         >
           <b-tabs position="is-centered" class="block">
@@ -185,5 +186,8 @@ export default {
   font-size: 1.3em;
   padding-bottom: 0.3em;
   border-bottom: solid 1px #ddd;
+}
+.b-tabs .works .tab-content {
+  padding: 0;
 }
 </style>
