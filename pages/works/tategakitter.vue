@@ -9,6 +9,9 @@
       <h1 class="work-heading">
         みんなのボタンメーカー
       </h1>
+      <h2>
+        概要
+      </h2>
     </div>
   </div>
 </template>

@@ -510,14 +510,6 @@ export default {
 .card-image img {
   border-radius: 5px 5px 0 0;
 }
-.content h1 {
-  font-size: 1.5em;
-}
-.content h2 {
-  font-size: 1.3em;
-  padding-bottom: 0.3em;
-  border-bottom: solid 1px #ddd;
-}
 .b-tabs .works .tab-content {
   padding: 20px 0 0;
 }
