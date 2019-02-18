@@ -6,6 +6,9 @@
       </figure>
     </div>
     <div class="container">
+      <p class="breadcrumb-work">
+        れとるときゃりーの紹介 > Works
+      </p>
       <h1 class="work-heading">
         みんなのボタンメーカー
       </h1>
@@ -41,9 +44,14 @@ export default {}
     padding: 3em 2em;
   }
 }
+.breadcrumb-work {
+  margin-top: 3em;
+  margin-bottom: 0.2em;
+  color: #777;
+}
 .work-heading {
-  font-size: 1.6em;
-  margin-top: 1.4em;
+  font-size: 1.8em;
+  margin-top: 0.2em;
   margin-bottom: 1.4em;
 }
 </style>
