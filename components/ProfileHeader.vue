@@ -10,7 +10,7 @@
       </h1>
       <p class="profile-description">
         個人で色々とWEBサービスつくっている大学生です。<br>
-        とりあえずwebサービスで行きていけるように頑張っています。
+        とりあえずwebサービスで生きていけるように頑張っています。
       </p>
       <div class="profile-links">
         <a

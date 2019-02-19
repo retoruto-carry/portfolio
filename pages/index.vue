@@ -477,7 +477,7 @@
                   </p>
                   <h2>エディタ</h2>
                   <p>
-                    mac book pro 2017, Ubuntu 18.04, git, GitHub, figma
+                    vim, Visual Studio Code
                   </p>
                   <h2>作曲ソフト</h2>
                   <p>
