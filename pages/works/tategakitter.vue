@@ -9,7 +9,7 @@
         <h2>概要</h2>
         <p>縦書きツイートを簡単に作れるサービス</p>
         <h2>使用技術</h2>
-        <p>nuxt.js, vue.js, PWA, eslint, underscore.js, vue-bootstap, font-awesome, netlify, GitHub</p>
+        <p>nuxt.js, vue.js, PWA, eslint, underscore.js, vue-bootstap, fontawesome, html, css, netlify, GitHub</p>
       </template>
     </work-detail>
   </div>
