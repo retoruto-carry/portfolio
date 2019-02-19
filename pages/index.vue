@@ -110,9 +110,9 @@
                       </div>
                       <footer class="card-footer">
                         <p class="card-footer-item">
-                          <a>
+                          <nuxt-link to="/works/kazoetter">
                             くわしく見る
-                          </a>
+                          </nuxt-link>
                         </p>
                         <p class="card-footer-item">
                           <a
