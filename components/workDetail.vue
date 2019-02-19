@@ -28,7 +28,6 @@ export default {}
 }
 .works-cover-wrpaper .image {
   margin: 0 auto;
-  /*max-width: calc(800px - 3em);*/
   max-width: 800px;
 }
 .works-cover-wrpaper .image img {
