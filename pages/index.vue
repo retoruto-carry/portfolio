@@ -7,7 +7,7 @@
           label="About"
           icon="account"
         >
-          <div class="container">
+          <div class="about container">
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -57,7 +57,7 @@
         >
           <b-tabs position="is-centered" class="block">
             <b-tab-item label="webサービス">
-              <div class="container">
+              <div class="web container">
                 <div class="columns is-multiline">
                   <div class="column is-half">
                     <div class="card">
@@ -301,7 +301,7 @@
               </div>
             </b-tab-item>
             <b-tab-item label="LT登壇">
-              <div class="container">
+              <div class="lt container">
                 <div class="columns is-multiline">
                   <div class="column is-half">
                     <div class="card">
@@ -404,7 +404,7 @@
               </div>
             </b-tab-item>
             <b-tab-item label="音楽">
-              <div class="container">
+              <div class="music container">
                 <iframe
                   width="100%"
                   height="300"
@@ -422,7 +422,7 @@
           label="Skills"
           icon="toolbox"
         >
-          <div class="container">
+          <div class="skills container">
             <div class="card">
               <div class="card-content">
                 <div class="content">
@@ -511,7 +511,16 @@ export default {
   border-radius: 5px 5px 0 0;
 }
 .b-tabs .works .tab-content {
-  padding: 20px 0 0;
+  padding: 20px 0;
+}
+.b-tabs .tab-item:not(.works) {
+  padding: 20px 0;
+}
+.about .card {
+  margin-bottom: 2rem;
+}
+.skills .card {
+  margin-bottom: 2rem;
 }
 .speakerdeck-embed-wrapper {
   position: relative !important;
