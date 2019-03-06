@@ -144,9 +144,9 @@
                       </div>
                       <footer class="card-footer">
                         <p class="card-footer-item">
-                          <a>
+                          <nuxt-link to="/works/rt_vs_fav_maker">
                             くわしく見る
-                          </a>
+                          </nuxt-link>
                         </p>
                         <p class="card-footer-item">
                           <a
@@ -178,9 +178,9 @@
                       </div>
                       <footer class="card-footer">
                         <p class="card-footer-item">
-                          <a>
+                          <nuxt-link to="/works/btnmaker">
                             くわしく見る
-                          </a>
+                          </nuxt-link>
                         </p>
                         <p class="card-footer-item">
                           <a
@@ -212,9 +212,9 @@
                       </div>
                       <footer class="card-footer">
                         <p class="card-footer-item">
-                          <a>
+                          <nuxt-link to="/works/yaruzosengen">
                             くわしく見る
-                          </a>
+                          </nuxt-link>
                         </p>
                         <p class="card-footer-item">
                           <a
@@ -246,9 +246,9 @@
                       </div>
                       <footer class="card-footer">
                         <p class="card-footer-item">
-                          <a>
+                          <nuxt-link to="/works/tipmusic">
                             くわしく見る
-                          </a>
+                          </nuxt-link>
                         </p>
                         <p class="card-footer-item">
                           <a
@@ -280,13 +280,13 @@
                       </div>
                       <footer class="card-footer">
                         <p class="card-footer-item">
-                          <a>
+                          <nuxt-link to="/works/monaalert">
                             くわしく見る
-                          </a>
+                          </nuxt-link>
                         </p>
                         <p class="card-footer-item">
                           <a
-                            href="https://tategakitter.netlify.com/"
+                            href="https://web.archive.org/web/20180312084535/http://retoruto-carry.96.lt/"
                             target="_blacnk"
                           >
                             <font-awesome-icon :icon="['fas', 'external-link-alt']" />

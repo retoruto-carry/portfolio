@@ -25,4 +25,10 @@ h2 {
   padding-bottom: 0.3em;
   border-bottom: solid 1px #ddd;
 }
+h3 {
+  font-size: 1em;
+  padding-top: 0.9em;
+  padding-bottom: 0.3em;
+  border-bottom: solid 1px #ddd;
+}
 </style>
