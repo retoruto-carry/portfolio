@@ -1,5 +1,7 @@
 const pkg = require('./package')
 
+const baseUrl = process.env.BASE_URL || 'http://localhost:3000'
+
 module.exports = {
   mode: 'spa',
 
@@ -7,11 +9,41 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: pkg.name,
+    title: 'れとるときゃりーの紹介',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'れとるときゃりーの自己紹介ページです。'
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'れとるときゃりーの紹介'
+      },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
+      { hid: 'og:url', property: 'og:url', content: baseUrl },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'れとるときゃりーの紹介'
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'れとるときゃりーの自己紹介ページです'
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: baseUrl + '/img/ogp.png'
+      },
+      { property: 'article:publisher', content: 'FacebookURL' },
+      { property: 'fb:app_id', content: 'FacebookAppID' },
+      { name: 'twitter:card', content: 'summary' },
+      { name: 'twitter:site', content: '@retoruto_carry' }
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
   },
@@ -53,6 +85,9 @@ module.exports = {
     ]
   },
 
+  env: {
+    baseUrl: baseUrl
+  },
   /*
   ** Build configuration
   */
