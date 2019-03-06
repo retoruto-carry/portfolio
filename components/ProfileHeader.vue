@@ -29,6 +29,16 @@
         </a>
         <a
           class="profile-link"
+          href="https://qiita.com/retoruto_carry"
+          target="_blank"
+        >
+          <font-awesome-layers>
+            <font-awesome-icon icon="square" />
+            <font-awesome-icon icon="search" transform="inverse" :style="{ color: 'white' }" />
+          </font-awesome-layers>
+        </a>
+        <a
+          class="profile-link"
           href="https://github.com/retoruto-carry"
           target="_blank"
         >
