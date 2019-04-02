@@ -473,7 +473,7 @@
                   <h1>ツール</h1>
                   <h2>開発環境</h2>
                   <p>
-                    mac book pro 2017, Ubuntu 18.04, git, GitHub, figma
+                    mac book pro 2017, Ubuntu 18.04, git, GitHub, docker, figma
                   </p>
                   <h2>エディタ</h2>
                   <p>
